@@ -62,8 +62,6 @@ third_party/README.md    외부 코드 출처
 
 1. Colab 에서 위 배지를 눌러 `notebooks/demo.ipynb` 를 엽니다. 런타임은 GPU(T4)를 선택합니다.
 2. 셀을 위에서부터 순서대로 실행합니다.
-   - REG 체크포인트(약 21.9GB) 다운로드에 약 16분이 걸립니다.
-   - 런타임이 초기화되면 `/content` 가 지워지므로, 저장소와 데이터는 처음부터 다시 받아야 합니다.
 3. 소규모 실험만 재현하려면 Toy 데이터 생성 셀 → `train_align.py` 작성 셀 → 학습 셀 → 비교 그림 셀 순으로 실행합니다.
 
 환경: Python 3.13, PyTorch 2.11.0+cu130, Tesla T4 (15.6GB). 패키지는 `requirements.txt` 참고.
