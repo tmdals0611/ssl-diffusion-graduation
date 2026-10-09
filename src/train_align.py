@@ -1,3 +1,5 @@
+# Based on the official SiT train.py (https://github.com/willisma/SiT, MIT License,
+# Copyright (c) Meta Platforms, Inc. and affiliates). Alignment loss and evaluation added.
 # SiT 학습 스크립트 (단일 GPU) + 선택적 REPA식 정렬 loss + held-out 평가
 import os, csv, argparse
 from time import time
