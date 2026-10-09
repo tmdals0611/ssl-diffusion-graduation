@@ -33,7 +33,7 @@
 notebooks/demo.ipynb     전체 실행 노트북 (Colab Pro, T4)
 src/train_align.py       직접 작성한 학습 스크립트 (SiT 공식 train.py 기반 + 정렬 loss + held-out 평가)
 results/                 결과 그림, results/csv 에 시드별 metrics.csv / eval.csv
-docs/                    공식 REPA 코드 대조표, 결과보고서
+docs/                    공식 REPA 코드 대조표
 third_party/README.md    외부 코드 출처
 ```
 
