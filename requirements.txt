@@ -1,0 +1,17 @@
+# Colab Pro (Tesla T4, Python 3.13, PyTorch 2.11.0+cu130) 환경에서 사용한 패키지.
+# 버전은 Colab 기본 설치본을 따랐으므로, 정확한 값은 Colab 에서
+#   !pip freeze | grep -iE "torch|timm|diffusers|accelerate|einops|torchdiffeq|transformers|huggingface"
+# 로 확인해 이 파일에 고정하세요.
+torch
+torchvision
+timm
+diffusers
+accelerate
+einops
+torchdiffeq
+transformers
+matplotlib
+pandas
+numpy
+# 주의: huggingface-hub 2.x 는 transformers/diffusers 와 충돌하여 import 오류가 발생함
+huggingface-hub>=1.5.0,<2.0
